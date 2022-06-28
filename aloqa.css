@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.content-count {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #1c375b;
+}
+
+.content-item {
+  margin-left: 110px;
+  margin-right: 110px;
+  padding: 30px;
+}
+
+.content-item h1 {
+  color: #cd4236;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-style: 50px;
+}
+
+.content-item h3 {
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-style: 10px;
+}
+
+.school-content {
+  justify-content: center;
+  align-items: center;
+}
+.school-content h2 {
+  text-align: center;
+  color: #1c375b;
+  font-family: sans-serif;
+  font-size: 35px;
+  margin-top: 50px;
+}
+
+.school-content-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.school-content-item h1 {
+  color: #1c375b;
+  font-family: sans-serif;
+}
+
+.school-content-item ul {
+  margin-right: 10px;
+  margin-left: -5px;
+  margin-top: 20px;
+}
+
+.school-content-item ul li {
+  list-style: none;
+  color: #2a2c36;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.school-content-item ul li::before {
+  content: "\f101";
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-size: 12px;
+  color: #cd4236;
+  margin-right: 10px;
+}
+
+.form {
+  display: flex;
+}
+.form div {
+  margin: 5px;
+}
+.form input {
+  border: 2px solid rgb(28, 55, 91);
+}
+.form textarea {
+  border: 2px solid rgb(28, 55, 91);
+}
+.school-button {
+  padding: 11px 30px;
+  margin-top: 23px;
+  background-color: rgb(28, 55, 91);
+  color: #fff;
+}
+.school-button:active {
+  padding: 11px 30px;
+  margin-top: 23px;
+  background-color: rgb(244, 247, 250);
+  color: rgb(28, 55, 91);
+  border: 1px solid rgb(28, 55, 91);
+  transition: 0.1s;
+}

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>12-maktab</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logos">
+          <img src="assets/img/yangi.jpg" alt="" class="nav__logos-img" />
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link active-link">Asosiy</a>
+            </li>
+            <li class="nav__item">
+              <a href="#celebrate" class="nav__link">Dars jadvali</a>
+            </li>
+            <li class="nav__item">
+              <a href="#gift" class="nav__link">Yangiliklar</a>
+            </li>
+            <li class="nav__item">
+              <a href="Aloqa.html" class="nav__link">A'loqa</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+
+          <img src="assets/img/nav-light.png" alt="" class="nav__img" />
+        </div>
+
+        <div class="nav__btns">
+          <i class="bx bx-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="bx bx-grid-alt"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <img src="assets/img/school.webp" alt="" class="home__img" />
+
+          <div class="home__data">
+            <h1 class="home__title">
+              12- umumiy
+              <br />
+              o'rta ta'lim maktabi !
+            </h1>
+            <p class="home__description">
+              Ta’lim va tarbiyaning asosi, poydevori bu – maktab. Maktabni
+              maktab qiladigan kuch esa o‘qituvchilardir!
+            </p>
+            <a href="#" class="button">Ba'tafsil</a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== GIVING ====================-->
+      <section class="giving section container">
+        <h2 class="section__title">Eng sara so'rovlar</h2>
+
+        <div class="giving__container grid">
+          <div class="giving_content">
+            <img src="assets/img/boy3.jpg" alt="" class="giving__img" />
+            <h3 class="giving__title">O'quvchi</h3>
+            <p class="giving__description">
+              Maktabdan tashqari organish uchun to'garakalr.
+            </p>
+          </div>
+
+          <div class="giving_content">
+            <img src="assets/img/parents.png" alt="" class="giving__img" />
+            <h3 class="giving__title">Ota-ona</h3>
+            <p class="giving__description">
+              O'quvchilarni maktabdan maktabga o'tkazish.
+            </p>
+          </div>
+
+          <div class="giving_content">
+            <img src="assets/img/book2.jpg" alt="" class="giving__img" />
+            <h3 class="giving__title">Darsliklar</h3>
+            <p class="giving__description">
+              Maktab fanlari bo'yicha elektron darsliklar.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--================ CELEBRATE ==================-->
+      <section class="celebrate section container" id="celebrate">
+        <div class="celebrate__container grid">
+          <div class="celebrate__data">
+            <h2 class="section__title celebrate__title">
+              Rahbariyat & O'qituvchilar <br />
+            </h2>
+            <p class="celebrate__description">
+              Farg'ona viloyati Quvasoy shahar 12-umumiy o'rta ta'lim maktabi
+              hududidagi rahbariyat va o'qituvchilar haqida malumot
+            </p>
+            <a href="rahbar.html" class="button">Batafsil</a>
+          </div>
+
+          <img src="assets/img/teacher.jpg" alt="" class="celebrate__img" />
+        </div>
+      </section>
+
+      <!--==================== NEW ====================-->
+      <section class="new section container" id="new">
+        <h2 class="section__title">Sinf ma'lumoti</h2>
+
+        <div class="new__container">
+          <div class="swiper new-swiper">
+            <div class="swiper-wrapper">
+              <article class="new__card swiper-slide">
+                <div class="new__overlay"></div>
+
+                <img src="assets/img/students.png" alt="" class="new__img" />
+                <h3 class="new__price">5-9 sinflar</h3>
+                <span class="new__title">Tayanch o'rta</span>
+
+                <button class="button new__button">
+                  <i class="bx bx-heart new__icon"></i>
+                </button>
+              </article>
+
+              <article class="new__card swiper-slide">
+                <div class="new__overlay"></div>
+
+                <img src="assets/img/network.png" alt="" class="new__img" />
+                <h3 class="new__price">10-11 sinflar</h3>
+                <span class="new__title">O'rta ta'lim</span>
+
+                <button class="button new__button">
+                  <i class="bx bx-heart new__icon"></i>
+                </button>
+              </article>
+
+              <article class="new__card swiper-slide">
+                <div class="new__overlay"></div>
+
+                <img src="assets/img/students.png" alt="" class="new__img" />
+                <h3 class="new__price">5-9 sinflar</h3>
+                <span class="new__title">Tayanch o'rta</span>
+
+                <button class="button new__button">
+                  <i class="bx bx-heart new__icon"></i>
+                </button>
+              </article>
+
+              <article class="new__card swiper-slide">
+                <div class="new__overlay"></div>
+
+                <img src="assets/img/children.png" alt="" class="new__img" />
+                <h3 class="new__price">1-4 sinflar</h3>
+                <span class="new__title">Boshlangich ta'lim</span>
+
+                <button class="button new__button">
+                  <i class="bx bx-heart new__icon"></i>
+                </button>
+              </article>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== GIFT ====================-->
+      <section class="gift section container" id="gift">
+        <h2 class="section__title">O'quvchilar o'zlashtirishlari uchun</h2>
+
+        <div class="gift__container grid">
+          <article class="gift__card">
+            <img src="assets/img/math.png" alt="" class="gift__img" />
+
+            <span class="gift__title">To'garaklar</span>
+          </article>
+
+          <article class="gift__card">
+            <img src="assets/img//research.png" alt="" class="gift__img" />
+
+            <span class="gift__title">Videodarsliklar</span>
+          </article>
+
+          <article class="gift__card">
+            <img src="assets/img/building.png" alt="" class="gift__img" />
+
+            <span class="gift__title">Maktab.uz</span>
+          </article>
+
+          <article class="gift__card">
+            <img src="assets/img/kamera.png" alt="" class="gift__img" />
+
+            <span class="gift__title">Onlaine maktab darslari</span>
+          </article>
+
+          <article class="gift__card">
+            <img src="assets/img/uzlogotype.png" alt="" class="gift__img" />
+
+            <h3 class="gift__price"></h3>
+            <span class="gift__title">Kundalik.com</span>
+          </article>
+
+          <article class="gift__card">
+            <img src="assets/img/medal.png" alt="" class="gift__img" />
+            <span class="gift__title">Respublika olimpiadalari</span>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== MESSAGE ====================-->
+      <section class="message section container">
+        <div class="message__container grid">
+          <form class="message__form">
+            <h2 class="message__title">
+              Murojaat <br />
+              mavzusi
+            </h2>
+            <input
+              type="email"
+              placeholder="Xabaringizni yozing"
+              class="message__input"
+            />
+            <button class="button message__button">Yuborish</button>
+          </form>
+
+          <img src="assets/img/333.png" alt="" class="message__img" />
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="">
+          <img class="nav__logos-img" src="assets/img/yangi.jpg" alt="" />
+          <p class="footer__description">
+            Farg'ona viloyati Quvasoy shahar <br />
+            12-umumiy o'rta ta'lim maktabi.
+          </p>
+        </div>
+
+        <div class="">
+          <h3 class="footer__title">Xizmatlar</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Asosiy</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Yangiliklar</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">A'loqa</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="">
+          <h3 class="footer__title">Foydali havolalar</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Xalq ta'lim vazirligi</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Qonun hujjatlari</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Ochiq ma'lumotlar portali</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="">
+          <h3 class="footer__title">Ishtimoiy tarmoqlar</h3>
+
+          <div class="footer__aviables">
+            <ul>
+              <li><i class="fa-brands fa-telegram"></i></li>
+              <li><i class="fa-brands fa-facebook"></i></li>
+              <li><i class="fa-brands fa-linkedin-in"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <span class="footer__copy">&#169; 12-maktab veb-sayti</span>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
