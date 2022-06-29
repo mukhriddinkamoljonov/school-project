@@ -1,0 +1,29 @@
+.main-tabel {
+  background-color: blue;
+  padding: 10px;
+}
+.main-tabel h1 {
+  color: #fff;
+  text-align: center;
+}
+.tabel-section {
+  width: 80%;
+  height: 100vh;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.tabel-section h2 {
+  text-align: center;
+  padding: 10px;
+}
+.container-tabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-tabel div {
+  padding: 40px;
+  -webkit-box-shadow: 3px 13px 14px -2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 3px 13px 14px -2px rgba(34, 60, 80, 0.2);
+  box-shadow: 3px 13px 14px -2px rgba(34, 60, 80, 0.2);
+}

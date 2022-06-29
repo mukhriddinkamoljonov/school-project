@@ -98,8 +98,9 @@ body {
 .form input {
   border: 2px solid rgb(28, 55, 91);
 }
-.form textarea {
+.form .textarea {
   border: 2px solid rgb(28, 55, 91);
+  height: 45px;
 }
 .school-button {
   padding: 11px 30px;
